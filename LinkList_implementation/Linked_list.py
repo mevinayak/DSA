@@ -12,9 +12,9 @@ class LinkedList:
             temp=temp.next
 if __name__ == '__main__':
     ll= LinkedList()
-    ll.head= Node(1)
+    ll.head= Node(3)
     second= Node(2)
-    third= Node(3)
+    third= Node(1)
     ll.head.next= second
     second.next= third
     print(ll.print_list())
